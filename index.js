@@ -83,3 +83,8 @@ let substringOfBase = baseString.substring(0, 2);
 console.log("substringOfBase: ", substringOfBase);
 console.log("substringOfBase.charAt(0): ",substringOfBase.charAt(0));
 
+// Boolean
+let isAuthenticated = true;
+let isAuthorized = false;
+console.log("isAuthenticated: ", isAuthenticated);
+console.log("isAuthorized: ", isAuthorized);
