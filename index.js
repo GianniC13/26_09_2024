@@ -88,3 +88,35 @@ let isAuthenticated = true;
 let isAuthorized = false;
 console.log("isAuthenticated: ", isAuthenticated);
 console.log("isAuthorized: ", isAuthorized);
+
+// operatori de atribuire
+let x = 12; // declarare si atribuire valoare 12
+console.log("x: ", x);
+x += 1; // atribuire plus adunare
+console.log("x: ", x);
+x -= 2; // atribuire cu scadere
+console.log("x: ", x);
+x *= 2; // atribuire cu inmultire
+console.log("x: ", x);
+x /= 3; // atribuire cu impartire
+console.log("x: ", x);
+
+// verificarea egalitatii
+let nameA = "Ana";
+let nameB = "Ana";
+let nameC = "Anamaria";
+console.log("nameA === nameB: ", nameA === nameB);
+console.log("nameA === nameC: ", nameA === nameC);
+
+let numberA = 12;
+let numberB = 12;
+let numberC = 13;
+console.log("numberA === numberB", numberA === numberB);
+console.log("numberA === numberC", numberA === numberC);
+
+// verificarea inegalitatii
+console.log("nameA !== nameB: ", nameA !== nameB);
+console.log("nameA !== nameC: ", nameA !== nameC);
+
+console.log("numberA !== numberB", numberA !== numberB);
+console.log("numberA !== numberC", numberA !== numberC);
